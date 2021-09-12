@@ -1,0 +1,155 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  width: 100%;
+  height: 120pt;
+  padding: 5pt;
+  background-color: grey;
+  display: block;
+  position: relative;
+}
+
+.box-one {
+  border: 1px solid grey;
+  position: absolute;
+  float: left;
+  padding-top: 30pt;
+  font-size: 12pt;
+}
+
+.box-two {
+  width: fit-content;
+  float: right;
+  position: relative;
+}
+
+#logo {
+  padding-top: 20pt;
+  width: 300px;
+  padding-right: 70px;
+}
+.navbar {
+  width: 100%;
+  height: 50pt;
+  background-color: rgb(192, 40, 20);
+  position: absolute;
+}
+
+ul > li {
+  display: block;
+  padding-top: 5px;
+  float: right;
+  list-style: none;
+  font-size: 16pt;
+  color: white;
+}
+
+#nav {
+  padding: 5px;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: floralwhite;
+}
+a:hover {
+  color: rgb(228, 238, 89);
+}
+
+.article.one {
+  position: relative;
+  width: 100%;
+  height: 70pt;
+}
+h2 {
+  padding-top: 130px;
+  padding-left: 40vw;
+  font-size: 50px;
+}
+
+.photo_box {
+  border: 1px solid white;
+  padding-bottom: 500px;
+  width: 100%;
+  height: 200pt;
+}
+#samsung {
+  height: 300px;
+  width: 900px;
+  padding-left: 200px;
+  padding-right: 100px;
+}
+p {
+  padding-left: 400px;
+}
+.photo.two {
+  width: 100%;
+  height: 500pt;
+  position: relative;
+}
+#debit {
+  width: 250px;
+  float: left;
+  padding-left: 200px;
+}
+
+.text {
+  width: 100%;
+  height: 50pt;
+  position: relative;
+  justify-content: left;
+  border: 1px solid white;
+}
+
+#atm {
+  position: relative;
+  padding-left: 200px;
+}
+
+.escooterp {
+  width: 300px;
+  border: 1 solid white;
+  position: relative;
+}
+#escooter {
+  width: 300px;
+  padding-left: 720px;
+}
+#taxi {
+  width: 250px;
+  position: relative;
+  padding-left: 300px;
+}
+#ptaxi {
+  position: relative;
+  display: inline;
+  float: inline-start;
+}
+#scooter {
+  position: relative;
+  display: inline;
+  float: inline-end;
+}
+.footer {
+  width: 100%;
+  height: 50pt;
+  background: grey;
+  align-items: center;
+  align-content: center;
+  padding: 50px;
+}
+#logo-footer {
+  width: 165px;
+  height: auto;
+  text-align: center;
+  justify-content: center;
+  padding-left: 500px;
+}
+#text-footer {
+  display: block;
+}
