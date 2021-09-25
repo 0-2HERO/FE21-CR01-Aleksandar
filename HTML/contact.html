@@ -1,12 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../CSS/index.css" />
     <title>Document</title>
-  </head>
-  <body>
-    <h1>CONTACT</h1>
-  </body>
+</head>
+
+<body>
+    <h1>Contact form</h1>
+    <form action="action_page.php">
+        E-mail address:<br />
+
+        <input type="text" name="lastname" placeholder="example@mail.com" /><br />
+        <br /> Select your inquire: <br />
+        <input type="radio" name="inquire" value="about article" checked /> about article
+        <br />
+        <input type="radio" name="inquire" value="Faq" /> Faq question <br />
+        <input type="radio" name="inquire" value="other" /> Other <br />
+        <br /> feedback: <br />
+        <select name="feedbacks">
+        <option value="amazing">Amazing</option>
+        <option value="good" selected>Good</option>
+        <option value="Bad">Bad</option>
+      </select>
+        <br /><br /> Tell us more: <br />
+        <textarea name="message" rows="10" cols="30">
+          There is a bug on website
+      </textarea>
+        <br />
+        <br />
+        <input type="submit" value="Submit" />
+    </form>
+</body>
+
 </html>
