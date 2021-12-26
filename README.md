@@ -12,4 +12,4 @@ See an example of a GitHub link below: https://github.com/JohnDoe/repositoryname
 Bonus Points:
 
 <li>Your page style is using the width properly to be responsive (it looks fine in different web browser sizes)
-<li>Add links to the menu that lead to other local HTML pages that you will additionally create. For these bonus points you are free to provide your design/layout solutions for these additional pages, e.g.: About, Contact, etc.
+<li>Add links to the menu that lead to other local HTML pages that you will additionally create. For these bonus points you are free to provide your design/layout solutions for these additional pages, e.g.: About, Contact, etc..
