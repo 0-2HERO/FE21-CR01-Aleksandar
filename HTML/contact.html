@@ -10,30 +10,62 @@
 </head>
 
 <body>
-    <h1>Contact form</h1>
-    <form action="action_page.php">
-        E-mail address:<br />
 
-        <input type="text" name="lastname" placeholder="example@mail.com" /><br />
-        <br /> Select your inquire: <br />
-        <input type="radio" name="inquire" value="about article" checked /> about article
-        <br />
-        <input type="radio" name="inquire" value="Faq" /> Faq question <br />
-        <input type="radio" name="inquire" value="other" /> Other <br />
-        <br /> feedback: <br />
-        <select name="feedbacks">
-        <option value="amazing">Amazing</option>
-        <option value="good" selected>Good</option>
-        <option value="Bad">Bad</option>
-      </select>
-        <br /><br /> Tell us more: <br />
-        <textarea name="message" rows="10" cols="30">
-          There is a bug on website
-      </textarea>
-        <br />
-        <br />
-        <input type="submit" value="Submit" />
-    </form>
+<!--navbar-->
+
+<div class="navwrap">
+  <h2>Aleksandar Full-stack Web Devoloper</h2>
+
+  <div class="cont cont-two">
+      <a href="https://codefactory.wien/en/home-en/"><img id="logo-top" src="../Images/logo.png" alt=" logo" /></a>
+  </div>
+</div>
+<!-- logo section end -->
+
+<!-- navigation bar start-->
+
+<div class="navigation-bar">
+  <ul>
+      <li>
+          <a href="index.html">Home</a>
+      </li>
+      <li>
+          <a href="blog.html">Blog</a>
+      </li>
+      <li>
+          <a href="#">About me</a>
+      </li>
+      <li>
+          <a id="rlink" href="contact.html">Contact</a>
+      </li>
+  </ul>
+</div>
+<!--navbar-->
+    
+    <div id="contact-form">
+      <form action="action_page.php">
+          E-mail address:<br />
+          <input type="text" name="lastname" placeholder="example@mail.com" /><br />
+          <br /> Select your inquire: <br />
+          <input type="radio" name="inquire" value="about article" checked /> about article
+          <br />
+          <input type="radio" name="inquire" value="Faq" /> Faq question <br />
+          <input type="radio" name="inquire" value="other" /> Other <br />
+          <br /> feedback: <br />
+          <select name="feedbacks">
+          <option value="amazing">Amazing</option>
+          <option value="good" selected>Good</option>
+          <option value="Bad">Bad</option>
+        </select>
+          <br /><br /> Tell us more: <br />
+          <textarea name="message" rows="10" cols="30">
+      
+        </textarea>
+          <br />
+          <br />
+          <input type="submit" value="Submit" />
+      </form>
+    </div>
 </body>
 
 </html>
